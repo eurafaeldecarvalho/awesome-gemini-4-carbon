@@ -2,7 +2,7 @@
 
 # Awesome Gemini 4 Carbon
 
-Every Gemini 4 Carbon creation worth seeing, each with its exact prompt, the original post and an Opus 5.5 side-by-side.
+Gemini 4 Carbon creations worth seeing, each with its exact prompt and the original post, plus an Opus 5.5 side-by-side where the author posted one.
 
 ![Gemini 4 Carbon curated prompt card: 16 creations · 12 authors credited · every link checked 2026-10-29](assets/social-preview.png)
 
