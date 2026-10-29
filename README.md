@@ -4,9 +4,9 @@
 
 Every Gemini 4 Carbon creation worth seeing, each with its exact prompt, the original post and an Opus 5.5 side-by-side.
 
-![Gemini 4 Carbon curated prompt card: 9 creations · 8 authors credited · every link checked 2026-10-29](assets/social-preview.png)
+![Gemini 4 Carbon curated prompt card: 16 creations · 12 authors credited · every link checked 2026-10-29](assets/social-preview.png)
 
-**9 creations · 8 authors credited · every link checked 2026-10-29**
+**16 creations · 12 authors credited · every link checked 2026-10-29**
 
 That line is generated from [`data/entries.yml`](data/entries.yml): one row per creation, counting the poster and anyone the poster names.
 
@@ -28,10 +28,10 @@ The text of this list is [CC BY 4.0](LICENSE). Prompts and creations stay with t
 
 ## Contents
 
-- [3D & Three.js](#3d-threejs) (4)
+- [3D & Three.js](#3d-threejs) (7)
 - [Games](#games) (0)
 - [Simulations & physics](#simulations) (0)
-- [UI/SVG](#ui-svg) (4)
+- [UI/SVG](#ui-svg) (8)
 - [Agents & long code](#agents) (0)
 - [Failures](#failures) (1)
 - [How to add one](#how-to-add-one)
@@ -58,6 +58,8 @@ a robotic eye that blinks, focuses, then explodes into every part.
 The post introduces this sentence with the words "One prompt:".
 
 **Comparison:** No Opus 5.5 output with this prompt is on the post.
+
+**Also:** [Later comparison with Opus 5.5 and GPT-6 Astra, which the author calls the same prompt](https://x.com/noclipepe/status/2115728069398757827)
 
 **Verified:** 2026-10-29
 
@@ -118,6 +120,60 @@ The post labels this string "same prompt" for the Carbon and Grok 4.7 outputs in
 **Comparison:** No Opus 5.5 output with this prompt is on the post.
 
 **Also:** [Earlier Carbon-only post](https://x.com/TimJayas/status/2112950910892789979)
+
+**Verified:** 2026-10-29
+
+<a id="cafe-racer"></a>
+### Exploded café racer
+
+**Author:** [Dromexa](https://x.com/dromexa) (@dromexa)
+**Post:** https://x.com/dromexa/status/2115802517942497491
+**Date:** 2026-10-29
+**Prompt:**
+
+```text
+a café racer you can X-ray, cut in half, explode and lay out part by part.
+```
+
+The post introduces this phrase with "Same prompt, one shot each:". Opus 5.5 is in the same video.
+
+**Comparison:** [Opus 5.5 is in this post](https://x.com/dromexa/status/2115802517942497491), with the same prompt.
+
+**Verified:** 2026-10-29
+
+<a id="mechanical-owl"></a>
+### Photorealistic mechanical owl
+
+**Author:** [Harshith](https://x.com/HarshithLucky3) (@HarshithLucky3)
+**Post:** https://x.com/HarshithLucky3/status/2113309654780699124
+**Date:** 2026-10-22
+**Prompt:**
+
+```text
+photorealistic 3D of a mechanical owl using three js
+```
+
+The post sets this line off with a leading > and calls it a new Arena checkpoint output.
+
+**Comparison:** No Opus 5.5 output with this prompt is on the post.
+
+**Verified:** 2026-10-29
+
+<a id="oxford-city"></a>
+### Interactive 3D Oxford
+
+**Author:** [Leo · Building w/ AI](https://x.com/leo114119) (@leo114119)
+**Post:** https://x.com/leo114119/status/2115839073701257422
+**Date:** 2026-10-29
+**Prompt:**
+
+```text
+用 three.js 建一个可交互的牛津 3D 城市，单 HTML 文件
+```
+
+The post places this line under 测试对比, as the task given to Gemini 4 Carbon and Fable 5.1. No Opus 5.5 output is in the post.
+
+**Comparison:** No Opus 5.5 output with this prompt is on the post.
 
 **Verified:** 2026-10-29
 
@@ -213,6 +269,78 @@ Create a professional motion graphics 30 seconds.
 ```
 
 The post labels the line "Prompt:".
+
+**Comparison:** No Opus 5.5 output with this prompt is on the post.
+
+**Verified:** 2026-10-29
+
+<a id="showreel-resume"></a>
+### 15-second motion-design showreel
+
+**Author:** [Leo · Building w/ AI](https://x.com/leo114119) (@leo114119)
+**Post:** https://x.com/leo114119/status/2115823149849714738
+**Date:** 2026-10-29
+**Prompt:**
+
+```text
+make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it’s your showreel for a résumé. go all out
+```
+
+The post labels this line "prompt:". Opus 5.5 is in the same video. @aeroidesde posted the same wording earlier that day.
+
+**Comparison:** [Opus 5.5 is in this post](https://x.com/leo114119/status/2115823149849714738), with the same prompt.
+
+**Verified:** 2026-10-29
+
+<a id="showreel-resume-eap"></a>
+### 15-second showreel on Carbon EAP
+
+**Author:** [Aeroides](https://x.com/aeroidesde) (@aeroidesde)
+**Post:** https://x.com/aeroidesde/status/2115755454660059626
+**Date:** 2026-10-29
+**Prompt:**
+
+```text
+make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it’s your showreel for a résumé. go all out
+```
+
+The post labels this line "Prompt:" and attributes the video to Gemini 4 Carbon EAP. @leo114119 later posted the same wording next to an Opus 5.5 comparison.
+
+**Comparison:** No Opus 5.5 output with this prompt is on the post.
+
+**Verified:** 2026-10-29
+
+<a id="superman-multiverse"></a>
+### Superman in shifting art styles
+
+**Author:** [Inmersion](https://x.com/Inmerson) (@Inmerson)
+**Post:** https://x.com/Inmerson/status/2115721948886155726
+**Date:** 2026-10-29
+**Prompt:**
+
+```text
+behold superman in continuous animation in different art style
+```
+
+The post labels this line "Prompt:" and shows Carbon beside Argon. No Opus 5.5 output is in the post.
+
+**Comparison:** No Opus 5.5 output with this prompt is on the post.
+
+**Verified:** 2026-10-29
+
+<a id="horror-scene-30s"></a>
+### 30-second horror scene with sound
+
+**Author:** [Harshith](https://x.com/HarshithLucky3) (@HarshithLucky3)
+**Post:** https://x.com/HarshithLucky3/status/2115510129546449289
+**Date:** 2026-10-28
+**Prompt:**
+
+```text
+30 sec horror scene with sound
+```
+
+The post sets this line off with a leading >. The author does not name the renderer.
 
 **Comparison:** No Opus 5.5 output with this prompt is on the post.
 
