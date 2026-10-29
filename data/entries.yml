@@ -14,6 +14,10 @@
   date: 2026-10-28
   prompt: "a robotic eye that blinks, focuses, then explodes into every part."
   note: "The post introduces this sentence with the words \"One prompt:\"."
+  related:
+    - url: https://x.com/noclipepe/status/2115728069398757827
+      handle: noclipepe
+      label: "Later comparison with Opus 5.5 and GPT-6 Astra, which the author calls the same prompt"
   verified_on: 2026-10-29
 
 - id: mechanical-peacock
@@ -147,4 +151,108 @@
   date: 2026-10-23
   prompt: "build Lightning McQueen in real-time 3D, complete with animated eyes."
   note: "The post labels this \"The task:\" for MiniMax M3.1 Flash, Kimi K3.1, Gemini 4 Carbon, and GPT-6.1 Sol. The author jokes that Gemini entered a different Pixar movie. In the posted comparison frame, the Carbon car is the one with a separated rear body. No Opus 5.5 run is in the post."
+  verified_on: 2026-10-29
+
+- id: cafe-racer
+  title: Exploded café racer
+  category: 3d-threejs
+  featured: 0
+  author:
+    name: Dromexa
+    handle: dromexa
+    url: https://x.com/dromexa
+  post: https://x.com/dromexa/status/2115802517942497491
+  date: 2026-10-29
+  prompt: "a café racer you can X-ray, cut in half, explode and lay out part by part."
+  note: "The post introduces this phrase with \"Same prompt, one shot each:\". Opus 5.5 is in the same video."
+  comparison:
+    url: https://x.com/dromexa/status/2115802517942497491
+    handle: dromexa
+  verified_on: 2026-10-29
+
+- id: mechanical-owl
+  title: Photorealistic mechanical owl
+  category: 3d-threejs
+  featured: 0
+  author:
+    name: Harshith
+    handle: HarshithLucky3
+    url: https://x.com/HarshithLucky3
+  post: https://x.com/HarshithLucky3/status/2113309654780699124
+  date: 2026-10-22
+  prompt: "photorealistic 3D of a mechanical owl using three js"
+  note: "The post sets this line off with a leading > and calls it a new Arena checkpoint output."
+  verified_on: 2026-10-29
+
+- id: oxford-city
+  title: Interactive 3D Oxford
+  category: 3d-threejs
+  featured: 0
+  author:
+    name: "Leo · Building w/ AI"
+    handle: leo114119
+    url: https://x.com/leo114119
+  post: https://x.com/leo114119/status/2115839073701257422
+  date: 2026-10-29
+  prompt: "用 three.js 建一个可交互的牛津 3D 城市，单 HTML 文件"
+  note: "The post places this line under 测试对比, as the task given to Gemini 4 Carbon and Fable 5.1. No Opus 5.5 output is in the post."
+  verified_on: 2026-10-29
+
+- id: showreel-resume
+  title: 15-second motion-design showreel
+  category: ui-svg
+  featured: 0
+  author:
+    name: "Leo · Building w/ AI"
+    handle: leo114119
+    url: https://x.com/leo114119
+  post: https://x.com/leo114119/status/2115823149849714738
+  date: 2026-10-29
+  prompt: "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it’s your showreel for a résumé. go all out"
+  note: "The post labels this line \"prompt:\". Opus 5.5 is in the same video. @aeroidesde posted the same wording earlier that day."
+  comparison:
+    url: https://x.com/leo114119/status/2115823149849714738
+    handle: leo114119
+  verified_on: 2026-10-29
+
+- id: showreel-resume-eap
+  title: 15-second showreel on Carbon EAP
+  category: ui-svg
+  featured: 0
+  author:
+    name: Aeroides
+    handle: aeroidesde
+    url: https://x.com/aeroidesde
+  post: https://x.com/aeroidesde/status/2115755454660059626
+  date: 2026-10-29
+  prompt: "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it’s your showreel for a résumé. go all out"
+  note: "The post labels this line \"Prompt:\" and attributes the video to Gemini 4 Carbon EAP. @leo114119 later posted the same wording next to an Opus 5.5 comparison."
+  verified_on: 2026-10-29
+
+- id: superman-multiverse
+  title: Superman in shifting art styles
+  category: ui-svg
+  featured: 0
+  author:
+    name: Inmersion
+    handle: Inmerson
+    url: https://x.com/Inmerson
+  post: https://x.com/Inmerson/status/2115721948886155726
+  date: 2026-10-29
+  prompt: "behold superman in continuous animation in different art style"
+  note: "The post labels this line \"Prompt:\" and shows Carbon beside Argon. No Opus 5.5 output is in the post."
+  verified_on: 2026-10-29
+
+- id: horror-scene-30s
+  title: 30-second horror scene with sound
+  category: ui-svg
+  featured: 0
+  author:
+    name: Harshith
+    handle: HarshithLucky3
+    url: https://x.com/HarshithLucky3
+  post: https://x.com/HarshithLucky3/status/2115510129546449289
+  date: 2026-10-28
+  prompt: "30 sec horror scene with sound"
+  note: "The post sets this line off with a leading >. The author does not name the renderer."
   verified_on: 2026-10-29

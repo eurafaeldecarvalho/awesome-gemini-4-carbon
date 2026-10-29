@@ -106,16 +106,28 @@ def fetch_status(url: str) -> dict:
     if not match:
         raise RuntimeError(f"not a status URL: {url}")
     status_id = match.group(1)
+    found = []
     errors = []
     for fetcher in (_from_syndication, _from_fxtwitter):
         try:
             tweet = fetcher(status_id)
             if tweet["id"] != status_id or not tweet["text"]:
                 raise RuntimeError("empty or mismatched status")
-            return tweet
+            found.append(tweet)
         except Exception as exc:  # noqa: BLE001 - try the other public API
             errors.append(f"{fetcher.__name__}: {exc}")
-    raise RuntimeError(f"{url} unreachable ({'; '.join(errors)})")
+    if not found:
+        raise RuntimeError(f"{url} unreachable ({'; '.join(errors)})")
+    # Syndication sometimes cuts a post at the t.co link. Keep every copy
+    # so the prompt check sees the full text the author published.
+    base = found[0]
+    for extra in found[1:]:
+        if extra["handle"].lower() != base["handle"].lower():
+            raise RuntimeError(f"{url}: sources disagree on handle")
+        if extra["date"] != base["date"]:
+            raise RuntimeError(f"{url}: sources disagree on date")
+        base["text"] = base["text"] + "\n" + extra["text"]
+    return base
 
 
 def _contains(haystack: str, needle: str) -> bool:
