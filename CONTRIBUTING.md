@@ -6,7 +6,7 @@ Add a creation only when you can point at all of the following on a public page.
 
 - The post or repository is public.
 - The author published the prompt. Quote it as they wrote it. If the post only describes the result ("I asked it to build a castle"), it does not qualify. Do not reconstruct, translate, or complete a prompt.
-- The result is visible without logging in. A video or page that only appears after login does not qualify. X posts are accepted when a public post API returns the status and the media URL answers without an account. That exception is listed in [`lychee.toml`](lychee.toml) because x.com blocks anonymous link checkers.
+- The result is visible without logging in. A video or page that only appears after login does not qualify. X posts are accepted when a public post API returns the status and the media URL answers without an account. That exception is listed in [`.lycheeignore`](.lycheeignore) because x.com blocks anonymous link checkers.
 - The author is named and linked, with the date of the post (`YYYY-MM-DD`, UTC).
 - One entry per creation. A comparison of that same creation is a field on the entry, not a second row.
 - An Opus 5.5 comparison is included only when someone published both outputs from the same prompt. Link that post. Do not run a private comparison and paste it here unless you are the repo owner, you say you ran both, and you include the date.

@@ -262,7 +262,7 @@ This list was assembled by an AI agent and is human-curated via pull requests. F
 
 Posts that show a result and never print the prompt are not listed. [@thtbee_](https://x.com/thtbee_)'s [mechanical flower](https://x.com/thtbee_/status/2112935205703147750) describes a Three.js scene and says the bee was not in the prompt, but does not quote the prompt. [@LuminaBench](https://x.com/LuminaBench)'s [Super Mario post](https://x.com/LuminaBench/status/2112848294581813473) refers to "the Super Mario prompt" and does not quote it. Descriptions such as "I asked it to build…" were not copied in as if they were the prompt. No prompt in this file was written by the list.
 
-X pages often block anonymous clients. Lychee skips those URLs. [`scripts/check_x_posts.py`](scripts/check_x_posts.py) reads each status from a public post API and checks the handle, the UTC date, and the prompt text. The exception list is in [`lychee.toml`](lychee.toml).
+X pages often block anonymous clients. Lychee skips those URLs. [`scripts/check_x_posts.py`](scripts/check_x_posts.py) reads each status from a public post API and checks the handle, the UTC date, and the prompt text. The exception list is in [`.lycheeignore`](.lycheeignore).
 
 ## License
 

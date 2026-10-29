@@ -1,5 +1,5 @@
 # Weekly, and on every pull request.
-# X/Twitter URLs are excluded in lychee.toml (login wall / bot block).
+# X/Twitter URLs are excluded in .lycheeignore (login wall / bot block).
 # scripts/check_x_posts.py verifies those statuses instead.
 
 name: Links
