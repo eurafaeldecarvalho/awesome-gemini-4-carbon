@@ -1,0 +1,16 @@
+# x.com, twitter.com, t.co, and twimg.com are skipped here.
+# Those hosts block or login-wall anonymous checkers, including the
+# videos attached to posts. scripts/check_x_posts.py fetches each status
+# from a public post API on every pull request and on the weekly run,
+# and fails if the handle, UTC date, or published prompt text does not match.
+exclude = [
+  '^https://x\\.com',
+  '^https://twitter\\.com',
+  '^https://t\\.co',
+  '^https://video\\.twimg\\.com',
+  '^https://pbs\\.twimg\\.com',
+]
+
+max_retries = 2
+timeout = 20
+no_progress = true

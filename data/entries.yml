@@ -1,0 +1,150 @@
+# Source of truth for the list. README.md is generated from this file.
+# Quote the prompt only as the author published it. Do not reconstruct one.
+# Schema and checks: scripts/validate_entries.py and scripts/check_x_posts.py.
+
+- id: robotic-eye
+  title: Robotic eye that blinks and explodes
+  category: 3d-threejs
+  featured: 1
+  author:
+    name: noclipepe
+    handle: noclipepe
+    url: https://x.com/noclipepe
+  post: https://x.com/noclipepe/status/2115556254101692515
+  date: 2026-10-28
+  prompt: "a robotic eye that blinks, focuses, then explodes into every part."
+  note: "The post introduces this sentence with the words \"One prompt:\"."
+  verified_on: 2026-10-29
+
+- id: mechanical-peacock
+  title: Mechanical Indian peacock
+  category: 3d-threejs
+  featured: 2
+  author:
+    name: Sree
+    handle: srikanthvaluri
+    url: https://x.com/srikanthvaluri
+  post: https://x.com/srikanthvaluri/status/2114748807464546689
+  date: 2026-10-26
+  prompt: "mechanical Indian peacock"
+  note: "The post names this phrase as the shared prompt and does not publish a longer one. The same video shows Opus 5.5, GPT-6 Astra, and GPT-6 Sol."
+  arena_label: "Gemini 4 Argon"
+  comparison:
+    url: https://x.com/srikanthvaluri/status/2114748807464546689
+    handle: srikanthvaluri
+  verified_on: 2026-10-29
+
+- id: freestyle-swimmer
+  title: Freestyle swimmer in Three.js
+  category: 3d-threejs
+  featured: 5
+  author:
+    name: Pranav Reddy
+    handle: AI_Screening
+    url: https://x.com/AI_Screening
+  post: https://x.com/AI_Screening/status/2113144877257248816
+  date: 2026-10-22
+  prompt: "A freestyle swimmer doing the front crawl using Three.js (single HTML file)"
+  note: "The post sets this sentence off with a leading >."
+  arena_label: "Gemini 4 Argon"
+  verified_on: 2026-10-29
+
+- id: cow-cycle
+  title: 3D cycle riding a cow
+  category: 3d-threejs
+  featured: 0
+  author:
+    name: Tim Jayas
+    handle: TimJayas
+    url: https://x.com/TimJayas
+  post: https://x.com/TimJayas/status/2113358260933988655
+  date: 2026-10-22
+  prompt: "build 3d cycle riding cow using three.js"
+  note: "The post labels this string \"same prompt\" for the Carbon and Grok 4.7 outputs in the video. It does not include an Opus 5.5 run."
+  related:
+    - url: https://x.com/TimJayas/status/2112950910892789979
+      handle: TimJayas
+      label: "Earlier Carbon-only post"
+  verified_on: 2026-10-29
+
+- id: pixel-cheetah
+  title: 640x360 pixel-art running cheetah
+  category: ui-svg
+  featured: 3
+  author:
+    name: Devilduke
+    handle: duke_mv
+    url: https://x.com/duke_mv
+  post: https://x.com/duke_mv/status/2113018068981182659
+  date: 2026-10-21
+  prompt: "640x360 pixel art of cheetah running"
+  note: "The author writes that this is the whole prompt."
+  comparison:
+    url: https://x.com/duke_mv/status/2113616533939466734
+    handle: duke_mv
+  credits:
+    - name: Harshith
+      handle: HarshithLucky3
+      url: https://x.com/HarshithLucky3
+  verified_on: 2026-10-29
+
+- id: red-fox
+  title: Painterly red fox at dawn
+  category: ui-svg
+  featured: 4
+  author:
+    name: Sree
+    handle: srikanthvaluri
+    url: https://x.com/srikanthvaluri
+  post: https://x.com/srikanthvaluri/status/2112958601174413780
+  date: 2026-10-21
+  prompt: "A red fox gallops through a dawn meadow in a smooth, painterly 2D style, with layered parallax depth and warm morning light."
+  note: "The post is a model note plus this sentence. The author later called it the same prompt. The model name is spelled \"Carbaon\" once in that post."
+  arena_label: "Argon"
+  related:
+    - url: https://x.com/srikanthvaluri/status/2113263958136414540
+      handle: srikanthvaluri
+      label: "Retest the author calls the same prompt"
+  verified_on: 2026-10-29
+
+- id: motorbike-pelican
+  title: Motorbike riding a pelican
+  category: ui-svg
+  featured: 0
+  author:
+    name: DrstaOne
+    handle: DrstaOne
+    url: https://x.com/DrstaOne
+  post: https://x.com/DrstaOne/status/2113373228630704237
+  date: 2026-10-22
+  prompt: "MOTORBIKE RIDING A PELICAN AND PELICAN TRY TO EAT FISH"
+  note: "The author posted this line after people asked for the prompt, and calls the result SVG."
+  verified_on: 2026-10-29
+
+- id: motion-graphics-30s
+  title: Thirty-second motion graphics
+  category: ui-svg
+  featured: 0
+  author:
+    name: Genysis AI
+    handle: Genysis_Ai_26
+    url: https://x.com/Genysis_Ai_26
+  post: https://x.com/Genysis_Ai_26/status/2112909613788230013
+  date: 2026-10-21
+  prompt: "Create a professional motion graphics 30 seconds."
+  note: "The post labels the line \"Prompt:\"."
+  verified_on: 2026-10-29
+
+- id: lightning-mcqueen
+  title: Lightning McQueen in real-time 3D
+  category: failures
+  featured: 0
+  author:
+    name: noclipepe
+    handle: noclipepe
+    url: https://x.com/noclipepe
+  post: https://x.com/noclipepe/status/2113557956553838890
+  date: 2026-10-23
+  prompt: "build Lightning McQueen in real-time 3D, complete with animated eyes."
+  note: "The post labels this \"The task:\" for MiniMax M3.1 Flash, Kimi K3.1, Gemini 4 Carbon, and GPT-6.1 Sol. The author jokes that Gemini entered a different Pixar movie. In the posted comparison frame, the Carbon car is the one with a separated rear body. No Opus 5.5 run is in the post."
+  verified_on: 2026-10-29

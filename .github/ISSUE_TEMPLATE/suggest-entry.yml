@@ -1,0 +1,79 @@
+name: Suggest an entry
+description: A public Gemini 4 Carbon creation whose author published the prompt.
+title: "Entry: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Read CONTRIBUTING.md before submitting. If the prompt is not on the post, leave the creation out.
+  - type: input
+    id: title
+    attributes:
+      label: Short title
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - 3D & Three.js
+        - Games
+        - Simulations & physics
+        - UI/SVG
+        - Agents & long code
+        - Failures
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      description: Display name and @handle, with a profile link.
+      placeholder: "Ada Lovelace (@ada) https://x.com/ada"
+    validations:
+      required: true
+  - type: input
+    id: post
+    attributes:
+      label: Original post
+      description: A public URL that opens the result without special access.
+      placeholder: https://x.com/author/status/123
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: UTC date of the post, YYYY-MM-DD.
+      placeholder: 2026-10-29
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt, as the author published it
+      description: Paste only the text from the post. Do not tidy it.
+    validations:
+      required: true
+  - type: input
+    id: comparison
+    attributes:
+      label: Opus 5.5 post with the same prompt
+      description: Leave empty if nobody published that comparison.
+      placeholder: https://
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: I opened the post. It is public, and the result is visible without logging in (X posts included only as described in CONTRIBUTING.md).
+          required: true
+        - label: The prompt above is the author's text, not a reconstruction.
+          required: true
+        - label: This is one creation, the author is credited, and it is not NSFW.
+          required: true
+        - label: I am not attaching the author's video, image, or code.
+          required: true
