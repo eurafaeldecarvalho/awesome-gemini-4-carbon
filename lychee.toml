@@ -1,0 +1,7 @@
+# Timeouts and retries for the links lychee does check.
+# X/Twitter URLs are not in this file. They live in .lycheeignore because
+# those hosts block anonymous checkers. scripts/check_x_posts.py verifies them.
+
+max_retries = 2
+timeout = 20
+no_progress = true

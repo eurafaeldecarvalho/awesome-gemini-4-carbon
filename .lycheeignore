@@ -1,0 +1,11 @@
+# x.com, twitter.com, t.co, and twimg.com block or login-wall anonymous
+# checkers, including GitHub-hosted runners (403). scripts/check_x_posts.py
+# verifies each status on every pull request and on the weekly run:
+# handle, UTC date, and that the stored prompt is text on the post.
+# Media URLs were checked once by hand on 2026-10-29 (HTTP 206, no account).
+
+^https://x\.com
+^https://twitter\.com
+^https://t\.co
+^https://video\.twimg\.com
+^https://pbs\.twimg\.com

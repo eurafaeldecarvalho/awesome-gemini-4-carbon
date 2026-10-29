@@ -1,0 +1,39 @@
+# Weekly, and on every pull request.
+# X/Twitter URLs are excluded in .lycheeignore (login wall / bot block).
+# scripts/check_x_posts.py verifies those statuses instead.
+
+name: Links
+
+on:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install PyYAML
+        run: python3 -m pip install -r requirements.txt
+
+      - name: Validate entries, X posts, and generated files
+        run: |
+          python3 scripts/validate_entries.py
+          python3 scripts/check_x_posts.py
+          python3 scripts/build_readme.py --check
+
+      - name: Check non-X links
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          fail: true
+          failIfEmpty: true
+          token: ""
+          lycheeVersion: v0.24.2
+          args: --config lychee.toml README.md CONTRIBUTING.md SUPPORT.md

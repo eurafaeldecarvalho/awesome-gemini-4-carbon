@@ -1,0 +1,36 @@
+name: Broken link
+description: A listed post, profile, or comparison URL no longer works.
+title: "Broken link: "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry id or title
+      placeholder: robotic-eye
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL that failed
+      placeholder: https://x.com/author/status/123
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What failed
+      options:
+        - Post removed or private
+        - Profile renamed
+        - Comparison link
+        - Other link in the README
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What you saw
+      description: Status code, login wall, or a replacement URL if the author moved it.
+    validations:
+      required: true
